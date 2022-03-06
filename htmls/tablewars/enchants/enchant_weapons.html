@@ -12,9 +12,10 @@
 		var enchants = getEnchants();
 		var stockList = '';
 		for(var i=0; i<enchants.length ; i++){
-			stockList += '<li><a src="google.com">' + enchants[i][0] + '</a></li>';
+			stockList += '<li><a href="' + enchants[i][1] + '">' + enchants[i][0] + '</a></li>';
 		}
 		document.getElementById('stock').innerHTML = stockList;
 	</script>
+	
 </body>
 </html>
