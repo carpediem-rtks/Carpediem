@@ -7,14 +7,17 @@
 </head>
 
 <body>
-	<ul id="stock"></ul>
 	<script>
-		var enchants = getEnchants();
-		var stockList = '';
-		for(var i=0; i<enchants.length ; i++){
-			stockList += '<li><a href="' + enchants[i][1] + '">' + enchants[i][0] + '</a></li>';
+		for(var k=0; k<getWeapons().length; k++){
+			document.write('<h2>' + getWeapons()[k] + '</h2>');
+			document.write('<ul id="' + k + '"></ul>');
+			let enchantsclone = getEnchantsWithWeapons(k);
+			var stockList = '';
+			for(var i=0; i<enchantsclone.length ; i++){
+				stockList += '<li><a href="' + enchantsclone[i].ename + '">' + enchantsclone[i].name + '</a></li>';
+			}
+			document.getElementById(k + '').innerHTML = stockList;
 		}
-		document.getElementById('stock').innerHTML = stockList;
 	</script>
 	
 </body>

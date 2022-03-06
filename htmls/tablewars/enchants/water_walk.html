@@ -2,9 +2,27 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>無題ドキュメント</title>
+	<script src="../../../js/enchantlist.js"></script>
+<title>水中歩行</title>
 </head>
 
 <body>
+	<div id="display"></div>
+	<div id="maintable"></div>
+	<p>水中で歩く速度がレベルに応じて速くなる。</p>
+	<h3>対象</h3>
+	<ul id="targetlist"></ul>
+	<h3>使用した型</h3>
+	<script>
+		var htmlname = window.location.href.split("/").pop().split(".").shift();
+		displayName(htmlname);
+		enchantLevelAndGrade(htmlname);
+		var etlist = enchantTarget(htmlname);
+		var stockList = '';
+		for(var i = 0 ; i < etlist.length ; i++){
+			stockList += "<li>" + etlist[i][0] + "</li>";
+		}
+		document.getElementById("targetlist").innerHTML = stockList;
+	</script>
 </body>
 </html>
