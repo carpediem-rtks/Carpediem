@@ -101,11 +101,15 @@ function enchantLevelAndGrade(ename){
 }
 
 function enchantTarget(ename){
+	var targeth3 = document.createElement("h3");
+	targeth3.innerHTML = "対象";
+	var targetul = document.createElement("ul");
+	targetul.id = "targetlist";
 	var indexForEnchantTarget = getIndexForEname(ename);
 	var targetForEnchantTarget = enchants[indexForEnchantTarget].btarget;
 	var btfet = targetForEnchantTarget.toString(2);
 	var etresult = [];
-	for(var i = 0 ; i < btfet.length ; i++){
+	for(var i = btfet.length - 1 ; i >= 0 ; i--){
 		var cbtfet = btfet.charAt(i);
 		if(cbtfet == '1'){
 			var eri = btfet.length - (i + 1);
@@ -113,5 +117,11 @@ function enchantTarget(ename){
 			etresult.push(etresultArray);
 		}
 	}
-	return etresult;
+	var stockList = '';
+	for(var i = 0 ; i < etresult.length ; i++){
+		stockList += "<li><a href = 'enchant_weapons#" + etresult[i][1] + "'>" + etresult[i][0] + "</a></li>";
+	}
+	document.getElementById("target").appendChild(targeth3);
+	document.getElementById("target").appendChild(targetul);
+	document.getElementById("targetlist").innerHTML = stockList;
 }
