@@ -2,6 +2,45 @@
 <html>
 <head>
 <meta charset="UTF-8">
+	<style>
+		body{
+			background-color:#202020;
+		}
+		h2{
+			color: #FFFFFF;
+			max-width: 250px;
+			padding-left: 10px;
+			border-bottom: solid 3px #FFFFFF;
+			background-size: contain;
+		}
+		a{
+			background-color: #FFFFFF;
+			border-radius: 3vh;
+			padding: 15px;
+			text-decoration: none;
+			letter-spacing: 0.1em;
+			display:inline-block;
+			overflow:hidden;
+			width: 200px;
+			text-align: center;
+		}
+		li{
+			float: left;
+			list-style-type: none;
+			padding-left: 20px;
+			flex-wrap: wrap;
+		}
+		ttl{
+			color: #FF0000;
+			font-family:"abril-fatface";
+			font-weight: 900;
+			font-size: 30px;
+		}
+		mr{
+			color: #000000;
+			float:right;
+		}
+	</style>
 <title>武器別エンチャント一覧</title>
 	<script src="../../../js/enchantlist.js"></script>
 </head>
@@ -9,12 +48,13 @@
 <body>
 	<script>
 		for(var k=0; k<getWeapons().length; k++){
+			document.write("<br><br>");
 			document.write('<h2 id=' + getEWeapons()[k] + '>' + getWeapons()[k] + '</h2>');
 			document.write('<ul id="' + k + '"></ul>');
 			let enchantsclone = getEnchantsWithWeapons(k);
 			var stockList = '';
 			for(var i=0; i<enchantsclone.length ; i++){
-				stockList += '<li><a href="' + enchantsclone[i].ename + '">' + enchantsclone[i].name + '</a></li>';
+				stockList += '<li><a href="' + enchantsclone[i].ename + '"><ttl>' + enchantsclone[i].name + '</ttl><br><mr>more→</mr></a></li>';
 			}
 			document.getElementById(k + '').innerHTML = stockList;
 		}
