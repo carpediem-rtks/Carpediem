@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+	<script src="../../../js/enchantlist.js"></script>
+<meta charset="UTF-8">
+<title>火炎耐性</title>
+</head>
+
+<body>
+		<div id="display"></div>
+	<div id="maintable"></div>
+	<p>火によるダメージが軽減される。</p>
+	<div id="target"></div>
+	<script>
+		var htmlname = window.location.href.split("/").pop().split(".").shift();
+		displayName(htmlname);
+		enchantLevelAndGrade(htmlname);
+		enchantTarget(htmlname);
+	</script>
+</body>
+</html>
