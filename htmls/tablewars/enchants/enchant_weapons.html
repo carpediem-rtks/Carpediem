@@ -3,18 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <title>武器別エンチャント一覧</title>
-	<script>
-		function test(){
-			document.write("yeah");
-		}
-	</script>
+	<script src="../../../js/enchantlist.js"></script>
 </head>
 
 <body>
-	
+	<ul id="stock"></ul>
 	<script>
-		document.write(window.location.href.split('/').pop());
+		var enchants = getEnchants();
+		var stockList = '';
+		for(var i=0; i<enchants.length ; i++){
+			stockList += '<li>' + enchants[i][0] + '</li>';
+		}
+		document.getElementById('stock').innerHTML = stockList;
 	</script>
-	<a href="JavaScript:test()">クリック</a>
 </body>
 </html>
