@@ -50,6 +50,10 @@ function getWeapons(){
 	return weapons;
 }
 
+function getEWeapons(){
+	return eweapons;
+}
+
 function getIndexForEname(ename){
 	for(var i = 0 ; i < enchants.length ; i++){
 		if(enchants[i].ename == ename){

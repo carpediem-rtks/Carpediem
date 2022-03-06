@@ -9,7 +9,7 @@
 <body>
 	<script>
 		for(var k=0; k<getWeapons().length; k++){
-			document.write('<h2>' + getWeapons()[k] + '</h2>');
+			document.write('<h2 id=' + getEWeapons()[k] + '>' + getWeapons()[k] + '</h2>');
 			document.write('<ul id="' + k + '"></ul>');
 			let enchantsclone = getEnchantsWithWeapons(k);
 			var stockList = '';
