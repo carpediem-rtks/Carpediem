@@ -43,6 +43,7 @@
 table{
 	color:#FFFFFF;
 	display: flex;
+	
 	flex-warp: wrap;
 }
 
