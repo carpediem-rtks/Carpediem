@@ -1,0 +1,36 @@
+		body{
+			background-color:#202020;
+		}
+		h2{
+			color:#FF0065
+		}
+		p{
+			color:#FFFFFF;
+		}
+		h3{
+			color: #FFFFFF;
+			max-width: 20vw;
+			padding-left: 1.5vw;
+			border-bottom: solid 0.3vw #FFFFFF;
+			background-size: contain;
+		}
+		.hexagon{
+			background: #FFFFFF;
+			background-size: contain;
+			width:7.5vw;
+			height:6.5vw;
+			clip-path:polygon(25% 0%,75% 0%,100% 50%, 75% 100%, 25% 100%, 0% 50%);
+		}
+		a.hexagon{
+			display:block;
+			text-decoration: none;
+			text-align: center;
+			line-height: 6.5vw;
+			font-weight: 900;
+		}
+		li{
+			list-style-type: none;
+			float: left;
+			padding-left:1.5vw;
+			flex-wrap: wrap;
+		}

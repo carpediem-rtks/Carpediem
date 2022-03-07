@@ -119,7 +119,7 @@ function enchantTarget(ename){
 	}
 	var stockList = '';
 	for(var i = 0 ; i < etresult.length ; i++){
-		stockList += "<li><a href = 'enchant_weapons#" + etresult[i][1] + "'>" + etresult[i][0] + "</a></li>";
+		stockList += "<li><a href = 'enchant_weapons#" + etresult[i][1] + "' class='hexagon'>" + etresult[i][0] + "</a></li>";
 	}
 	document.getElementById("target").appendChild(targeth3);
 	document.getElementById("target").appendChild(targetul);
