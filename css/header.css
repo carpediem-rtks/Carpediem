@@ -23,6 +23,9 @@
 		li.topmenuc:hover ul.secondmenu{
 			visibility:visible;
 		}
+		li.topmenuc:active ul.secondmenu{
+			visibility:visible;
+		}
 		li.topmenuc ul.secondmenu {
 			position: absolute;
 		}
