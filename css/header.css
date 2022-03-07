@@ -29,6 +29,10 @@
 		li.secondmenuc{
 			width:20vw;
 		}
+		.secondmenuc > a {
+			color: #FFFFFF;
+			text-decoration: none;
+		}
 		.secondmenuc > a:hover{
 			background : #FFA8CF;
 			color: #000000;

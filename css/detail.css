@@ -40,3 +40,27 @@
 		div.fla{
 			float: right;
 		}
+table{
+	color:#FFFFFF;
+	display: flex;
+	flex-warp: wrap;
+}
+
+th {
+	color : #FF0065;
+	border-bottom: solid 0.1vw #FF0065;
+	padding-left : 3vw;
+	padding-right: 3vw;
+	padding-top: 3vw;
+	font-weight: 900;
+}
+
+td{
+	border-bottom: solid 0.1vw #FF0065;
+	text-align: center;
+	padding-left : 5vw;
+	padding-right: 5vw;
+	padding-top: 3vw;
+}
+
+th,td { display:block;}
