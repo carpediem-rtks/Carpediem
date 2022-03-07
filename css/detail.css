@@ -28,6 +28,9 @@
 			line-height: 6.5vw;
 			font-weight: 900;
 		}
+		a.hexagon:hover{
+			background: #FFA8CF;
+		}
 		li{
 			list-style-type: none;
 			float: left;
