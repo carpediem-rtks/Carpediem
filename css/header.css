@@ -1,0 +1,39 @@
+	<style>
+		header{
+			background:#202020;
+		}
+		.topmenu{
+			margin:0 auto;
+		}
+		li.topmenuc{
+			position:relative;
+			color: #FFFFFF;
+			float:left;
+			list-style-type: none;
+			padding:2vw;
+			height:20px;
+		}
+		ul.secondmenu{
+			position:relative;
+			list-style-type:none;
+			background: #202020;
+			border-top: 1px solid #FFA8CF;
+			visibility: hidden;
+		}
+		li.topmenuc:hover ul.secondmenu{
+			visibility:visible;
+		}
+		li.topmenuc ul.secondmenu {
+			position: absolute;
+		}
+		li.secondmenuc{
+			width:20vw;
+		}
+		.secondmenuc > a:hover{
+			background : #FFA8CF;
+			color: #000000;
+		}
+		div.reset{
+			clear:both;
+		}
+	</style>

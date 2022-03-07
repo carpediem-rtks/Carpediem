@@ -37,3 +37,6 @@
 			padding-left:1.5vw;
 			flex-wrap: wrap;
 		}
+		div.fla{
+			float: right;
+		}
