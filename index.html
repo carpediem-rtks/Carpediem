@@ -8,20 +8,55 @@
 	body{
 		background:#202020;
 	}
+	h2{
+		padding-top:4vw;
+		color: #FFFFFF;
+		max-width: 20vw;
+		padding-left: 1.5vw;
+		border-bottom: solid 0.3vw #FFFFFF;
+		background-size: contain;
+	}
+	p{
+		color:#FFFFFF;
+		font-size: 3vw;
+	}
+	cstrong{
+		color:#FF0065;
+		font-weight: 900;
+	}
+	li.gameslinks{
+		color:#FFFFFF;
+		float:left;
+		padding-left: 4vw;
+		font-size: 2vw;
+		font-weight: 900;
+	}
+	.gameslinks{
+		list-style-type: none;
+	}
+	.gameslinks > a{
+		color:#FFFFFF;
+		text-decoration: none;
+	}
+	.gameslinks > a:hover{
+		color:#FF0065;
+	}
 </style>
+<script src="js/gamelist.js"></script>
 </head>
 
 <body>
 	<script src="js/header.js"></script>
 	<main>
 	<h2>About</h2>
-	<p>ようこそ、Carpediemへ</p>
-	<p>Carpediemの説明文をここに追加して、めちゃくちゃ面白いゲームだぜってことをアピールしてやろうぜ</p>
+		<p>ようこそ、<cstrong>Carpediem</cstrong>へ</p>
 	<h2>Games</h2>
-	リストをここに作成して、各ゲームの詳細の部分に飛べるようにしたいよね。
+	<div id="games"></div>
 	<h2>News</h2>
-	ニュースを気楽に管理できるものをなんとかして作りたいという気持ちが強い。
 	<a href="htmls/tablewars/enchants/enchant_weapons.html">これもクリックしてください</a>
+	<script>
+		writeGamesLinks();	
+	</script>
 	</main>
 	<footer>
 	

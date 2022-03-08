@@ -17,7 +17,7 @@
 			position:relative;
 			list-style-type:none;
 			background: #202020;
-			border-top: 1px solid #FFA8CF;
+			border-top: 1px solid #FF0065;
 			visibility: hidden;
 		}
 		li.topmenuc:hover ul.secondmenu{
@@ -35,9 +35,11 @@
 		.secondmenuc > a {
 			color: #FFFFFF;
 			text-decoration: none;
+			background-size: contain;
 		}
 		.secondmenuc > a:hover{
-			background : #FFA8CF;
+			background-size: cover;
+			background : #FF0065;
 			color: #000000;
 		}
 		div.reset{
