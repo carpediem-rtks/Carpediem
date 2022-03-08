@@ -11,7 +11,24 @@ let enchants = [
 	{name:"入れ食い",ename:"fast_bite",btarget:256,lng:[[1,1],[2,2],[3,3]]},
 	{name:"射撃ダメージ増加",ename:"increase_arrow_damage",btarget:32,lng:[[1,2],[2,3],[3,4]]},
 	{name:"ダメージ軽減",ename:"decrease_damage",btarget:15,lng:[[1,1],[2,2],[3,3]]},
-	{name:"ダメージ増加",ename:"increase_damage",btarget:16,lng:[[1,2],[2,3],[3,4]]}
+	{name:"ダメージ増加",ename:"increase_damage",btarget:16,lng:[[1,2],[2,3],[3,4]]},
+	{name:"棘の鎧",ename:"thorns",btarget:15,lng:[[1,1],[2,2],[3,3]]},
+	{name:"耐久力",ename:"durability",btarget:262143,lng:[[1,1],[2,2],[3,3]]},
+	{name:"飛び道具耐性",ename:"projectile_resistance",btarget:15,lng:[[1,1],[2,2],[3,3],[4,4]]},
+	{name:"ノックバック",ename:"knockback",btarget:262143,lng:[[1,1],[2,2]]},
+	{name:"パンチ",ename:"punch",btarget:32,lng:[[1,1],[2,2]]},
+	{name:"範囲ダメージ増加",ename:"increase_range_damage",btarget:16,lng:[[1,1],[2,2]]},
+	{name:"火属性",ename:"fire_aspect",btarget:16,lng:[[1,2],[2,3]]},
+	{name:"高速装填",ename:"quick_charge",btarget:64,lng:[[1,2],[2,3],[3,4]]},
+	{name:"水中呼吸",ename:"water_breathing",btarget:1,lng:[[1,2],[2,3],[3,4]]},
+	{name:"貫通",ename:"pierce",btarget:64,lng:[[1,2]]},
+	{name:"フレイム",ename:"flame",btarget:32,lng:[[1,3]]},
+	{name:"召雷",ename:"lightning",btarget:128,lng:[[1,3]]},
+	{name:"忠誠",ename:"loyalty",btarget:128,lng:[[1,3]]},
+	{name:"拡散",ename:"multiply",btarget:64,lng:[[1,3]]},
+	{name:"氷渡り",ename:"ice_walking",btarget:8,lng:[[1,4]]},
+	{name:"無限",ename:"infinity",btarget:32,lng:[[1,4]]},
+	{name:"激流",ename:"riptide",btarget:128,lng:[[1,4]]}
 ];
 
 Object.freeze(enchants);
