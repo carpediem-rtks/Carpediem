@@ -12,7 +12,7 @@ function writeGamesLinks(){
 		var l = document.createElement("li");
 		l.className = "gameslinks";
 		var agames = document.createElement("a");
-		agames.href = "https://carpediem-rtks.github.io/Carpediem/htmls/" + games[i].name + "/" + games[i].ename + "_main.html";
+		agames.href = "https://carpediem-rtks.github.io/Carpediem/htmls/" + games[i].ename + "/" + games[i].ename + "_main.html";
 		agames.innerHTML = games[i].name;
 		l.appendChild(agames);
 		ul.appendChild(l);
