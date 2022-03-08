@@ -10,7 +10,8 @@ let enchants = [
 	{name:"宝釣り",ename:"treasure_fishing",btarget:256,lng:[[1,1],[2,2],[3,3]]},
 	{name:"入れ食い",ename:"fast_bite",btarget:256,lng:[[1,1],[2,2],[3,3]]},
 	{name:"射撃ダメージ増加",ename:"increase_arrow_damage",btarget:32,lng:[[1,2],[2,3],[3,4]]},
-	{name:"ダメージ軽減",ename:"decrease_damage",btarget:15,lng:[[1,1],[2,2],[3,3]]}
+	{name:"ダメージ軽減",ename:"decrease_damage",btarget:15,lng:[[1,1],[2,2],[3,3]]},
+	{name:"ダメージ増加",ename:"increase_damage",btarget:16,lng:[[1,2],[2,3],[3,4]]}
 ];
 
 Object.freeze(enchants);
