@@ -13,6 +13,10 @@
 			padding:2vw;
 			height:20px;
 		}
+li.topmenuc > a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
 		ul.secondmenu{
 			position:relative;
 			list-style-type:none;
