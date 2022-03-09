@@ -55,7 +55,9 @@ let enchants = [
 	{name:"模造",ename:"copy",btarget:133120,lng:[[1,3]]},
 	{name:"禁忌",ename:"taboo",btarget:16,lng:[[1,4]]},
 	{name:"金槌",ename:"unswimable",btarget:2,lng:[[1,1],[2,2],[3,3]]},
-	{name:"重り",ename:"weight",btarget:16,lng:[[1,2]]}
+	{name:"重り",ename:"weight",btarget:16,lng:[[1,2]]},
+	{name:"不幸中の幸い",ename:"unlucky_lucky",btarget:1,lng:[[1,4]]},
+	{name:"銅鑼",ename:"gong",btarget:2,lng:[[1,4]]}
 ];
 
 Object.freeze(enchants);
