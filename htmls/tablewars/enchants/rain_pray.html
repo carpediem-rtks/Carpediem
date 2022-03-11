@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+	<script src="../../../js/enchantlist.js"></script>
+	<link rel="stylesheet" type="text/css" href="../../../css/detail.css">
+<meta charset="UTF-8">
+<link href="../../../css/header.css" rel="stylesheet" type="text/css">
+<title>雨の祈り</title>
+</head>
+
+<body>
+	<script src="../../../js/header.js"></script>
+	<div id="display"></div>
+	<p>右クリックで消費して、天候を雨にする。</p>
+	<div id="maintable"></div>
+	<div id="target"></div>
+	<script>
+		var htmlname = window.location.href.split("/").pop().split(".").shift();
+		displayName(htmlname);
+		enchantLevelAndGrade(htmlname);
+		enchantTarget(htmlname);
+	</script>
+</body>
+</html>

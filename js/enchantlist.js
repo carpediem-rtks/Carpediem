@@ -57,7 +57,17 @@ let enchants = [
 	{name:"金槌",ename:"unswimable",btarget:2,lng:[[1,1],[2,2],[3,3]]},
 	{name:"重り",ename:"weight",btarget:16,lng:[[1,2]]},
 	{name:"不幸中の幸い",ename:"unlucky_lucky",btarget:1,lng:[[1,4]]},
-	{name:"銅鑼",ename:"gong",btarget:2,lng:[[1,4]]}
+	{name:"銅鑼",ename:"gong",btarget:2,lng:[[1,4]]},
+	{name:"束縛の呪い",ename:"binding",btarget:15,lng:[[1,1]]},
+	{name:"晴れの祈り",ename:"clear_pray",btarget:133120,lng:[[1,3]]},
+	{name:"雨の祈り",ename:"rain_pray",btarget:133120,lng:[[1,3]]},
+	{name:"雷の祈り",ename:"thunder_pray",btarget:133120,lng:[[1,3]]},
+	{name:"皿",ename:"rain_plate",btarget:1,lng:[[1,3]]},
+	{name:"光合成",ename:"photonic",btarget:2,lng:[[1,3]]},
+	{name:"着付け",ename:"take_on",btarget:16,lng:[[1,3]]},
+	{name:"乾燥肌",ename:"dry",btarget:2,lng:[[1,1]]},
+	{name:"偏頭痛",ename:"headache",btarget:1,lng:[[1,1]]},
+	{name:"びびり腰",ename:"chatter",btarget:4,lng:[[1,1]]}
 ];
 
 Object.freeze(enchants);
