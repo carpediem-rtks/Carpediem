@@ -67,7 +67,16 @@ let enchants = [
 	{name:"着付け",ename:"take_on",btarget:16,lng:[[1,3]]},
 	{name:"乾燥肌",ename:"dry",btarget:2,lng:[[1,1]]},
 	{name:"偏頭痛",ename:"headache",btarget:1,lng:[[1,1]]},
-	{name:"びびり腰",ename:"chatter",btarget:4,lng:[[1,1]]}
+	{name:"びびり腰",ename:"chatter",btarget:4,lng:[[1,1]]},
+	{name:"百鬼夜行",ename:"ghost_time",btarget:2,lng:[[1,3]]},
+	{name:"王冠",ename:"crown",btarget:1,lng:[[1,4]]},
+	{name:"生還",ename:"level_home",btarget:133120,lng:[[1,3]]},
+	{name:"洗脳",ename:"brainwash",btarget:1,lng:[[1,3]]},
+	{name:"黒魔術",ename:"black_magic",btarget:2,lng:[[1,2],[2,3]]},
+	{name:"生物薬品",ename:"medicine",btarget:133120,lng:[[1,1],[2,2],[3,3]]},
+	{name:"ハミング",ename:"haming",btarget:8,lng:[[1,1],[2,2],[3,3]]},
+	{name:"宿り木",ename:"heal_wood",btarget:4,lng:[[1,2],[2,3]]},
+	{name:"適応性",ename:"adaptability",btarget:32,lng:[[1,3]]}
 ];
 
 Object.freeze(enchants);
